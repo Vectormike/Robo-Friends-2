@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import CardList from '../components/CardList';
+import { connect } from 'react-redux';
+ import CardList from '../components/CardList';
 import Scroll from '../components/Scroll';
 import SearchBox from '../components/SearchBox';
+import { setSearchField } from '../actions';
 
 
 
