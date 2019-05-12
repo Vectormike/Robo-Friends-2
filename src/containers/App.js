@@ -13,6 +13,12 @@ const mapStateToProps = (state) => {
     }
 }
 
+const mapDispatchToProps = () => {
+    return {
+        
+    }
+}
+
 class App extends Component {
     constructor() {
         super()
