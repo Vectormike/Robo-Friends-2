@@ -13,12 +13,11 @@ const mapStateToProps = (state) => {
     }
 }
 
-const mapDispatchToProps = () => {
+const mapDispatchToProps = (dispatch) => {
     return {
-        
+        onSearchChange: (e) => dispatch(setSearchField(e.target.value))
     }
 }
-
 class App extends Component {
     constructor() {
         super()
